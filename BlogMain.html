@@ -4,11 +4,60 @@
 <head>
   <meta charset="utf-8">
 <title>AlexBlogMain</title>
+
+<style>
+
+.MainHeader {
+font-family: Georgia, "Times new roman", serif;
+font-size: 3em;
+color: blue;
+}
+
+.Copywrite {
+color: red;
+font-size: 2em;
+font-weight: bold;
+margin: 1em 0 .4em;
+}
+
+html{
+
+background-color: #999;
+
+}
+
+body {
+
+  width: 70%;
+  margin:0 auto;
+  font: 100% Arial, Helvetica, sans-serif;
+  background: white;
+  border: 2px solid grey;
+
+}
+
+p {
+
+text-align: justify;
+width: 60%;
+margin: 0;
+margin-bottom: 1em;
+
+}
+
+h1 {
+font-family: Georgia, "Times new roman", serif;
+font-size: 2em;
+color: blue;
+}
+
+</style>
+
 </head>
 <body>
 
   <header role="banner">
-<h1>ALEX's BLOG</h1>
+<h1 class="MainHeader">ALEX's BLOG</h1>
 <p><strong>Hello, My name is Alex. This is my personal blog / update page! <br /> I will
   learn how to create this website by learning HTML, CSS, <br /> Javascript, and PHP as
   I go! :)</strong></p>
@@ -19,7 +68,7 @@
   <h2>Business/Fitness/Developer</h2>
 <ul>
 <img src="Images/Business.jpg" alt="Business/Fitness/Developer" class="flowRight">
-  <li><a href="Stocks.html"><strong>Stocks</strong></a></li>
+  <li><a href="Stocks.html" title="Stocks!" target="_blank"><strong>Stocks</strong></a></li>
   <li><a href="Crypto.html"><strong>Crypto</strong></a></li>
   <li><a href="Fitness.html"><strong>Fitness</strong></a></li>
   <li><a href="DeveloperProgress.html"><strong>Developer Progress</strong></a></li>
@@ -35,6 +84,7 @@
 <li><a href="Anime.html"><strong>Anime</strong></a></li>
 <li><a href="Shows.html"><strong>Shows</strong></a></li>
 <li><a href="Movies.html"><strong>Movies</strong></a></li>
+<li><a href="Games.html"><strong>Games</strong></a></li>
 </ul>
 </nav>
 </section>
@@ -53,7 +103,7 @@
 </section>
 
 <aside>
-<p>Copywrite &ldquo;ALEX&rsquo;s BLOG&rdquo;. Feel free to republish with attribution</p>
+<p class="Copywrite">Copywrite &ldquo;ALEX&rsquo;s BLOG&rdquo;. Feel free to republish with attribution</p>
 </aside>
 
 
