@@ -26,6 +26,29 @@ background-color: #999;
 
 }
 
+
+li {
+
+  display: inline-block;
+  
+
+}
+
+a:hover{
+
+  text-decoration: underline;
+
+}
+
+.fpbutton {
+
+  background: rgb(6, 17, 177);
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+}
+
 body {
 
   width: 70%;
@@ -33,48 +56,44 @@ body {
   font: 100% Arial, Helvetica, sans-serif;
   background: white;
   border: 2px solid grey;
-  padding: ;
-
+  
 }
 
 p {
 
-text-align: justify;
-width: 60%;
-margin: 0;
-margin-bottom: 1em;
+  text-align: justify;
+  width: 60%;
+  margin: 0;
+  margin-bottom: 1em;
 
 }
 
-h1 {
-font-family: Georgia, "Times new roman", serif;
-font-size: 2em;
-color: blue;
+h2 {
+  font-family: Georgia, "Times new roman", serif;
+  font-size: 2em;
+  color: blue;
 }
 
-.mainli {
 
-
-}
 </style>
 
 </head>
 <body>
 
-  <header role="banner">
-<h1 class="MainHeader">ALEX's BLOG</h1>
-<p><strong>Welcome to my personal blog!</strong></p>
+<header role="banner">
+  <h1 class="MainHeader">ALEX's BLOG</h1>
+  <p><strong>Welcome to my personal blog!</strong></p>
 
 </header>
 
 <header>
   <h2>Business/Fitness/Developer</h2>
-<ul class="mainli">
-<img src="Images/Business.jpg" alt="Business/Fitness/Developer" class="flowRight">
-  <li><a href="Stocks.html" title="Stocks!" target="_blank"><strong>Stocks</strong></a></li>
-  <li><a href="Crypto.html"><strong>Crypto</strong></a></li>
-  <li><a href="Fitness.html"><strong>Fitness</strong></a></li>
-  <li><a href="DeveloperProgress.html"><strong>Developer Progress</strong></a></li>
+  <img src="Images/Business.jpg" alt="Business/Fitness/Developer">
+<ul>
+  <li><button class="fpbutton"><a href="Stocks.html" title="Stocks blog." target="_blank" class="fpbutton"><strong>Stocks</strong></a></button></li>
+  <li><button class="fpbutton"><a href="Crypto.html" title="Crypto blog." target="_blank" class="fpbutton"><strong>Crypto</strong></a></button></li>
+  <li><button class="fpbutton"><a href="Fitness.html"title="Fitness blog." target="_blank" class="fpbutton"><strong>Fitness</strong></a></button></li>
+  <li><button class="fpbutton"><a href="DeveloperProgress.html"title="Developer blog." target="_blank" class="fpbutton"><strong>Developer Progress</strong></a></button></li>
 </ul>
 </header>
 
@@ -82,30 +101,31 @@ color: blue;
 
 <header>
 <h2>HOBBIES</h2>
-<ul class="mainli">
-  <img src="Images/Hobbies.jpg" alt="Hobbies" class="flowRight">
-<li><a href="Anime.html"><strong>Anime</strong></a></li>
-<li><a href="Shows.html"><strong>Shows</strong></a></li>
-<li><a href="Movies.html"><strong>Movies</strong></a></li>
-<li><a href="Games.html"><strong>Games</strong></a></li>
+<img src="Images/Hobbies.jpg" alt="Hobbies">
+<ul>
+<li><button class="fpbutton"><a href="Anime.html" title="Anime blog." target="_blank" class="fpbutton"><strong>Anime</strong></a></button></li>
+<li><button class="fpbutton"><a href="Shows.html" title="Shows blog." target="_blank" class="fpbutton"><strong>Shows</strong></a></button></li>
+<li><button class="fpbutton"><a href="Movies.html" title="Movies blog." target="_blank" class="fpbutton"><strong>Movies</strong></a></button></li>
+<li><button class="fpbutton"><a href="Games.html" title="Games blog." target="_blank" class="fpbutton"><strong>Games</strong></a></button></li>
 </ul>
 </header>
 
 
 <header>
 <h2>SELF STUDY</h2>
+<img src="Images/SelfStudy.jpg" alt="Self Study">
 <ul class="mainli">
-  <img src="Images/SelfStudy.jpg" alt="Self Study" class="flowRight">
-<li><a href="Improvements.html"><strong>Improvements</strong></a></li>
-<li><a href="Habits.html"><strong>Habits</strong></a></li>
-<li><a href="SetbackPatterns.html"><strong>Setback Patterns</strong></a></li>
+<li><button class="fpbutton"><a href="Improvements.html" title="Improvements blog." target="_blank" class="fpbutton"><strong>Improvements</strong></a></button></li>
+<li><button class="fpbutton"><a href="Habits.html" title="Habits blog." target="_blank" class="fpbutton"><strong>Habits</strong></button></a></li>
+<li><button class="fpbutton"><a href="SetbackPatterns.html" title="Setbacks blog." target="_blank" class="fpbutton"><strong>Setback Patterns</strong></a></button></li>
 </ul>
 </header>
 
+<footer>
 <aside>
 <p class="Copywrite">Copywrite &ldquo;ALEX&rsquo;s BLOG&rdquo;. Feel free to republish with attribution</p>
 </aside>
-
+</footer>
 
 </body>
 
