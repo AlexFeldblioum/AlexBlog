@@ -1,0 +1,82 @@
+.MainHeader {
+    font-family: Georgia, "Times new roman", serif;
+    font-size: 3em;
+    color: blue;
+    }
+
+    p.MainHeader {
+    
+        margin-bottom: 2em;
+        font-size: 1em;
+        color: white;
+        
+
+    
+    }
+    
+    .Copywrite {
+    color: red;
+    font-size: .75em;
+    font-weight: bold;
+    margin: 1em 0 .4em;
+    }
+    
+    
+    li {
+    
+      display: inline-block;
+      margin: 0px 25px auto;
+    
+    
+    }
+    
+    .headdiv{
+
+        flex-direction: row-reverse;
+    
+    }
+    a:hover{
+    
+      text-decoration: underline;
+    
+    }
+
+     .fpPicture{
+
+        border-radius: 5px;
+        height: 200px;
+        width: 600px;
+    }
+    
+    .fpbutton {
+    
+      background: rgb(6, 17, 177);
+      border-radius: 10px;
+      text-decoration: none;
+      border-color: rgb(130, 155, 151);
+      color: rgb(255, 255, 255);
+      height: 40px;
+     
+    
+    }
+    
+    body {
+    
+      font: 100% Arial, Helvetica, sans-serif;
+      background: rgb(71, 142, 163);
+      border: 2px solid grey;
+      margin: 0;
+      padding: 0; 
+      text-align: center;
+
+      
+    }
+    
+    
+    h2 {
+      font-family: Georgia, "Times new roman", serif;
+      font-size: 2em;
+      color: blue;
+      text-decoration: underline;
+    }
+    
