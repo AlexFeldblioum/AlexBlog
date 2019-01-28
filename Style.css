@@ -1,18 +1,47 @@
-.MainHeader {
-    font-family: Georgia, "Times new roman", serif;
-    font-size: 3em;
-    color: blue;
+    header {
+        background: black;
+        background-image: url("Images/Bloghead.jpg");
+        border-radius: 100px;
+        height: 100px;
+        padding: 10px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
 
-    p.MainHeader {
-    
-        margin-bottom: 2em;
-        font-size: 1em;
-        color: white;
+    .headul{
+
+        font-family: Georgia, "Times new roman", serif;
+        font-size: 2em;
+        color: black;
+        margin: auto;
         
-
-    
     }
+    header a{
+
+        margin-top: 30px;
+        color: black;
+    }
+
+    header .logo a{
+        background-image: url("Images/Logo.png");
+        background-size: 200px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 70px;
+        width: 200px;
+        text-indent: -9999999px;
+        top: -10px;
+    }
+    
+
+    div{
+
+        display: inline;
+        
+    }
+
     
     .Copywrite {
     color: red;
@@ -26,15 +55,15 @@
     
       display: inline-block;
       margin: 0px 25px auto;
+      
     
     
     }
     
-    .headdiv{
+    a{
+        text-decoration: none;
+    }
 
-        flex-direction: row-reverse;
-    
-    }
     a:hover{
     
       text-decoration: underline;
@@ -50,11 +79,10 @@
     
     .fpbutton {
     
-      background: rgb(6, 17, 177);
+      background: rgb(57, 64, 146);
       border-radius: 10px;
-      text-decoration: none;
       border-color: rgb(130, 155, 151);
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
       height: 40px;
      
     
@@ -63,13 +91,13 @@
     body {
     
       font: 100% Arial, Helvetica, sans-serif;
-      background: rgb(71, 142, 163);
-      border: 2px solid grey;
+      background-image: url("Images/Background.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
       margin: 0;
       padding: 0; 
       text-align: center;
 
-      
     }
     
     
