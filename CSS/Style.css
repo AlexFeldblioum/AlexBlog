@@ -1,6 +1,6 @@
     header {
         background: black;
-        background-image: url("Images/Bloghead.jpg");
+        background-image: url("../Images/Bloghead.jpg");
         border-radius: 100px;
         height: 100px;
         padding: 10px;
@@ -24,7 +24,7 @@
     }
 
     header .logo a{
-        background-image: url("Images/Logo.png");
+        background-image: url("../Images/Logo.png");
         background-size: 200px;
         display: inline-block;
         background-repeat: no-repeat;
@@ -91,7 +91,7 @@
     body {
     
       font: 100% Arial, Helvetica, sans-serif;
-      background-image: url("Images/Background.jpg");
+      background-image: url("/Images/Background.jpg");
       background-repeat: no-repeat;
       background-size: 100% 100%;
       margin: 0;
