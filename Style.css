@@ -59,33 +59,34 @@
     
     
     }
-    
-    a{
-        text-decoration: none;
-    }
-
-    a:hover{
-    
-      text-decoration: underline;
-    
-    }
 
      .fpPicture{
 
         border-radius: 5px;
-        height: 200px;
-        width: 600px;
+        height: 400px;
+        width: 70%;
+        margin: auto;
     }
     
-    .fpbutton {
-    
-      background: rgb(57, 64, 146);
+    .link {
+
+      display: inline-block;  
+      background: rgb(234, 174, 241);
+      background: -webkit-linear-gradient(top, rgb(234, 174, 241) 0%, rgb(158, 17, 180) 100%);
       border-radius: 10px;
-      border-color: rgb(130, 155, 151);
       color: rgb(0, 0, 0);
-      height: 40px;
-     
+      padding: 15px;
+      margin: 20px auto;
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid rgb(133, 10, 112);
     
+    }
+
+    .link:hover{
+
+        background: rgba(224, 121, 255, 0.7);
+        
     }
     
     body {
@@ -103,8 +104,11 @@
     
     h2 {
       font-family: Georgia, "Times new roman", serif;
-      font-size: 2em;
-      color: blue;
-      text-decoration: underline;
+      color: rgb(0, 0, 0);
+      opacity: 0.7;
+      text-align: center;
+      margin: 25px auto;
+      font-size: 3em;
     }
     
+   
