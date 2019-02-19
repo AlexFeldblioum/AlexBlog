@@ -1,0 +1,119 @@
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.stocklist a:hover{
+
+   opacity: 0.5; 
+}
+
+/* Long (Bullish) section */
+
+.long-list{
+    background:rgba(6, 167, 0, 0.5);
+    border-radius: 30px; 
+}
+
+.long-list .stocklist{
+
+    display: list-item;
+    list-style: none;
+    font-size: 2em;
+    color: rgb(20, 60, 105);
+    text-align: center;
+    background:rgba(3, 94, 0, 0.3);
+    border-radius: 30px;
+    margin:5px;
+    padding: 10px;
+    width:100%;
+    margin-left: -37px;
+    
+}
+
+.stock-status-long{
+    font-family: Georgia, "Times new roman", serif;
+    color: rgb(22, 196, 22);
+    background: rgb(229, 255, 0);
+    background: -webkit-linear-gradient(left, rgba(0, 139, 23, 0.7) 0%, rgba(211, 1, 1, 0.7) 100%);
+    border-radius: 15px;
+    text-align: center;
+    margin: 25px auto;
+    padding: 5px;
+    font-size: 2em;
+    width: 50%;
+}
+
+
+/* Short (Bearish) section */
+
+.short-list{
+    background:rgba(255, 0, 0, 0.7);
+    border-radius: 30px; 
+}
+
+.short-list .stocklist{
+    
+    display: list-item;
+    list-style: none;
+    font-size: 2em;
+    color: rgb(177, 143, 143);
+    text-align: center;
+    background:rgba(141, 0, 15, 0.6);
+    border-radius: 30px;
+    margin:5px;
+    padding: 10px;
+    width:100%;
+    margin-left: -37px;
+    
+}
+
+.stock-status-short{
+    font-family: Georgia, "Times new roman", serif;
+    color: rgb(190, 0, 0);
+    background: rgb(229, 255, 0);
+    background: -webkit-linear-gradient(left, rgba(0, 139, 23, 0.7) 0%, rgba(211, 1, 1, 0.7) 100%);
+    border-radius: 15px;
+    text-align: center;
+    margin: 25px auto;
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 2em;
+    width: 50%;
+}
+
+/* Current Positions */
+
+.current-list{
+    background:rgba(0, 122, 131, 0.5);
+    border-radius: 30px; 
+}
+
+.current-list .stocklist{
+
+    display: list-item;
+    list-style: none;
+    font-size: 2em;
+    color: rgb(116, 0, 151);
+    text-align: center;
+    background:rgba(4, 0, 219, 0.3);
+    border-radius: 30px;
+    margin:5px;
+    padding: 10px;
+    width:100%;
+    margin-left: -37px;
+    
+}
+
+.stock-status-current{
+    font-family: Georgia, "Times new roman", serif;
+    color: rgb(25, 0, 255);
+    background: rgb(229, 255, 0);
+    background: -webkit-linear-gradient(left, rgba(0, 139, 23, 0.7) 0%, rgba(211, 1, 1, 0.7) 100%);
+    border-radius: 15px;
+    text-align: center;
+    margin: 25px auto;
+    padding: 5px;
+    font-size: 2em;
+    width: 50%;
+}
