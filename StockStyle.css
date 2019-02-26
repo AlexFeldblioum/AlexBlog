@@ -15,23 +15,38 @@ a{
     background:rgba(6, 167, 0, 0.5);
     border-radius: 30px; 
     width:100%;
+    
 }
 
-.long-list .stocklist{
+.long-list .longList-title-name{
 
     display: inline-block;
     list-style: none;
-    font-size: 2em;
+    font-size: 3em;
     color: rgb(20, 60, 105);
     text-align: center;
     background:rgba(3, 94, 0, 0.3);
     border-radius: 30px;
-    padding: 10px;
-    width: 48%;
-   
-    
+    padding: 10px 0px;
+    margin: 5px 5px 5px 0px;
+    width: 49%; 
+    float: left;
 }
 
+.long-list .longList-title-data{
+
+    display: inline-block;
+    list-style: none;
+    font-size: 3em;
+    color: rgb(20, 60, 105);
+    text-align: center;
+    background:rgba(3, 94, 0, 0.3);
+    border-radius: 30px;
+    padding: 10px 0px;
+    margin: 5px 0px 5px 5px;
+    width: 49%;
+    float: right; 
+}
 .long-list .stocklist-name{
 
     display: inline-block;
@@ -41,9 +56,10 @@ a{
     text-align: center;
     background:rgba(3, 94, 0, 0.3);
     border-radius: 30px;
-    margin:5px;
-    padding: 10px;
-    width: 48%;
+    margin:5px 5px 5px 0px;
+    padding: 10px 0px;
+    width: 49%;
+    
     
     
 }
@@ -58,9 +74,10 @@ a{
     text-align: center;
     background:rgba(3, 94, 0, 0.3);
     border-radius: 30px;
-    margin:5px 125px 5px 5px;
-    padding: 10px;
-    width: 30%;
+    margin:5px 0px 5px 5px;
+    padding: 10px 0px;
+    width: 49%;
+    
 }
 
 .stock-status-long{
@@ -77,7 +94,9 @@ a{
 }
 
 
-/* Short (Bearish) section */
+/*************************************
+        Short (Bearish) section 
+ ************************************/
 
 .short-list{
     background:rgba(255, 0, 0, 0.7);
@@ -85,19 +104,35 @@ a{
     width: 100%;
 }
 
-.short-list .stocklist{
+.short-list .shortList-title-name{
     
     display: inline-block;
     list-style: none;
-    font-size: 2em;
+    font-size: 3em;
     color: rgb(177, 143, 143);
     text-align: center;
     background:rgba(141, 0, 15, 0.6);
     border-radius: 30px;
-    padding: 10px;
-    width: 48%
+    padding: 10px 0px;
+    margin: 5px 5px 5px 0px;
+    width: 49%;
+    float: left;
     
+}
+
+.short-list .shortList-title-data{
     
+    display: inline-block;
+    list-style: none;
+    font-size: 3em;
+    color: rgb(177, 143, 143);
+    text-align: center;
+    background:rgba(141, 0, 15, 0.6);
+    border-radius: 30px;
+    padding: 10px 0px;
+    margin: 5px 0px 5px 5px;
+    width: 49%;
+    float: right;
 }
 
 .short-list .stocklist-name{
@@ -109,9 +144,9 @@ a{
     text-align: center;
     background:rgba(141, 0, 15, 0.6);
     border-radius: 30px;
-    margin:5px;
-    padding: 10px;
-    width: 48%;
+    margin:5px 5px 5px 0px;
+    padding: 10px 0px;
+    width: 49%;
     
     
 }
@@ -126,9 +161,9 @@ a{
     text-align: center;
     background:rgba(141, 0, 15, 0.6);
     border-radius: 30px;
-    margin:5px 125px 5px 5px;
-    padding: 10px;
-    width: 30%;
+    margin:5px 0px 5px 5px;
+    padding: 10px 0px;
+    width: 49%;
    
     
 }
@@ -157,21 +192,36 @@ a{
     width: 100%;
 }
 
-.current-list .stocklist{
+.current-list .currentList-title-name{
 
     display: inline-block;
     list-style: none;
-    font-size: 2em;
+    font-size: 3em;
     color: rgb(116, 0, 151);
     text-align: center;
     background:rgba(4, 0, 219, 0.3);
     border-radius: 30px;
-    padding: 10px;
-    width: 48%;
-   
-    
+    padding: 10px 0px;
+    margin: 5px 5px 5px 0px;
+    width: 49%;
+    float: left;
+
 }
 
+.current-list .currentList-title-data{
+
+    display: inline-block;
+    list-style: none;
+    font-size: 3em;
+    color: rgb(116, 0, 151);
+    text-align: center;
+    background:rgba(4, 0, 219, 0.3);
+    border-radius: 30px;
+    padding: 10px 0px;
+    margin: 5px 0px 5px 5px;
+    width: 49%;
+    float: right;
+}
 .current-list .stocklist-name{
     
     display: inline-block;
@@ -181,9 +231,9 @@ a{
     text-align: center;
     background:rgba(4, 0, 219, 0.3);
     border-radius: 30px;
-    margin:5px;
-    padding: 10px;
-    width: 48%;
+    margin:5px 5px 5px 0px;
+    padding: 10px 0px;
+    width: 49%;
     
     
 }
@@ -198,9 +248,9 @@ a{
     text-align: center;
     background:rgba(4, 0, 219, 0.3);
     border-radius: 30px;
-    margin:5px 125px 5px 5px;
-    padding: 10px;
-    width: 30%;
+    margin:5px 0px 5px 5px;
+    padding: 10px 0px;
+    width: 49%;
    
     
 }
